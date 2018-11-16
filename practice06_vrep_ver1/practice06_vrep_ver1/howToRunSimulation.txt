@@ -1,0 +1,16 @@
+
+When you have to run simulation with VRep:
+# Start simultation sequence:
+# 1) run simulation on VRep
+# 2) run simulation on Matlab
+
+if there are not issues, simulations end and automatically stop 
+
+------------------------------------------------------------------------------------
+
+If you need to stop the simulation:
+# Stop simulation sequence:
+# 1) stop simulation on matlab
+# 2) stop simulation on vrep
+
+(if you do not use the above sequence the VRep robot model in the next simulation will start from the last assumed cofiguration and not from the starter one)
